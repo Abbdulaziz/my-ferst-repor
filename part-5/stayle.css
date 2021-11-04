@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  * {
+    cursor: none;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  section {
+    min-height: 100vh;
+    background-color: rgb(41, 42, 46);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .cursor {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.356);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    /* pointer-events: none; */
+  }
+  
